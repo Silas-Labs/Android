@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "845183575674",
+    "project_id": "pastry-world",
+    "storage_bucket": "pastry-world.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:845183575674:android:d38f86dce554e135bc3dc3",
+        "android_client_info": {
+          "package_name": "com.example.pastryworld"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyARhFLKR852JTrLrv4q3Hon_03oFaEkCG0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

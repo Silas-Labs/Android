@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+        <string name="response.json">
+            {
+              "authenticationResultCode": "ValidCredentials",
+              "brandLogoUri": "https://dev.virtualearth.net/Branding/logo_powered_by.png",
+              "copyright": "Copyright © 2023 Microsoft and its suppliers. All rights reserved. This API cannot be accessed and the content and any results may not be used, reproduced or transmitted in any manner without express written permission from Microsoft Corporation.",
+              "resourceSets": [
+                {
+                  "estimatedTotal": 1,
+                  "resources": [
+                    {
+                      "__type": "Route:http://schemas.microsoft.com/search/local/ws/rest/v1",
+                      "bbox": [
+                        0.197443,
+                        35.09645,
+                        0.203935,
+                        35.131005
+                      ],
+                      "id": "v70,h-1592458665,i0,a0,cen-US,dAAAAAAAAAAA1,y0,s1,m1,o1,t4,wfLlPjgJEyT9-qgoNxJBBQA2~ADTYOrrBSCqfAADgAYV7Dj0A0~cm9hZA2~~~~~~~~v12,wxuBh2jf3yT_eyhKdZYxBQA2~ADTYOrqRXCqfAADgAUAQ-z4C0~cm9hZA2~~~~~~~~v12,k1",
+                      "distanceUnit": "Kilometer",
+                      "durationUnit": "Second",
+                      "routeLegs": [
+                        {
+                          "actualEnd": {
+                            "type": "Point",
+                            "coordinates": [
+                              0.202647,
+                              35.09645
+                            ]
+                          },
+                          "actualStart": {
+                            "type": "Point",
+                            "coordinates": [
+                              0.197443,
+                              35.131005
+                            ]
+                          },
+                          "alternateVias": [],
+                          "description": "B8, B12",
+                          "endTime": "/Date(1701902868044-0800)/",
+                          "itineraryItems": [
+                            {
+                              "compassDirection": "west",
+                              "details": [
+                                {
+                                  "compassDegrees": 291,
+                                  "endPathIndices": [
+                                    10
+                                  ],
+                                  "maneuverType": "DepartStart",
+                                  "mode": "Driving",
+                                  "roadType": "Street",
+                                  "startPathIndices": [
+                                    0
+                                  ]
+                                }
+                              ],
+                              "exit": "",
+                              "iconType": "Auto",
+                              "instruction": {
+                                "formattedText": null,
+                                "maneuverType": "DepartStart",
+                                "text": "Depart and head toward B8"
+                              },
+                              "isRealTimeTransit": false,
+                              "maneuverPoint": {
+                                "type": "Point",
+                                "coordinates": [
+                                  0.197443,
+                                  35.131005
+                                ]
+                              },
+                              "realTimeTransitDelay": 0,
+                              "sideOfStreet": "Unknown",
+                              "tollZone": "",
+                              "towardsRoadName": "B8",
+                              "transitTerminus": "",
+                              "travelDistance": 1.345,
+                              "travelDuration": 108,
+                              "travelMode": "Driving"
+                            },
+                            {
+                              "compassDirection": "northwest",
+                              "details": [
+                                {
+                                  "compassDegrees": 334,
+                                  "endPathIndices": [
+                                    13
+                                  ],
+                                  "maneuverType": "TurnRight",
+                                  "mode": "Driving",
+                                  "names": [
+                                    "B8"
+                                  ],
+                                  "roadShieldRequestParameters": {
+                                    "bucket": 7209614,
+                                    "shields": [
+                                      {
+                                        "labels": [
+                                          "B8"
+                                        ],
+                                        "roadShieldType": 1
+                                      }
+                                    ]
+                                  },
+                                  "roadType": "Highway",
+                                  "startPathIndices": [
+                                    10
+                                  ]
+                                }
+                              ],
+                              "exit": "",
+                              "iconType": "Auto",
+                              "instruction": {
+                                "formattedText": null,
+                                "maneuverType": "TurnRight",
+                                "text": "Turn right onto B8"
+                              },
+                              "isRealTimeTransit": false,
+                              "maneuverPoint": {
+                                "type": "Point",
+                                "coordinates": [
+                                  0.201283,
+                                  35.12
+                                ]
+                              },
+                              "realTimeTransitDelay": 0,
+                              "sideOfStreet": "Unknown",
+                              "tollZone": "",
+                              "transitTerminus": "",
+                              "travelDistance": 0.13,
+                              "travelDuration": 71,
+                              "travelMode": "Driving"
+                            },
+                            {
+                              "compassDirection": "west",
+                              "details": [
+                                {
+                                  "compassDegrees": 257,
+                                  "endPathIndices": [
+                                    27
+                                  ],
+                                  "maneuverType": "TurnLeft",
+                                  "mode": "Driving",
+                                  "names": [
+                                    "Eldoret Kapsabet Road"
+                                  ],
+                                  "roadShieldRequestParameters": {
+                                    "bucket": 7209614,
+                                    "shields": [
+                                      {
+                                        "labels": [
+                                          "B12"
+                                        ],
+                                        "roadShieldType": 1
+                                      }
+                                    ]
+                                  },
+                                  "roadType": "Highway",
+                                  "startPathIndices": [
+                                    13
+                                  ]
+                                }
+                              ],
+                              "exit": "",
+                              "iconType": "Auto",
+                              "instruction": {
+                                "formattedText": null,
+                                "maneuverType": "TurnLeft",
+                                "text": "Turn left onto B12 / Eldoret Kapsabet Road"
+                              },
+                              "isRealTimeTransit": false,
+                              "maneuverPoint": {
+                                "type": "Point",
+                                "coordinates": [
+                                  0.202347,
+                                  35.119516
+                                ]
+                              },
+                              "realTimeTransitDelay": 0,
+                              "sideOfStreet": "Unknown",
+                              "tollZone": "",
+                              "transitTerminus": "",
+                              "travelDistance": 2.623,
+                              "travelDuration": 269,
+                              "travelMode": "Driving",
+                              "warnings": [
+                                {
+                                  "origin": "0.202152,35.1182",
+                                  "severity": "Minor",
+                                  "text": "Minor congestion",
+                                  "to": "0.202347,35.119516",
+                                  "warningType": "TrafficFlow"
+                                }
+                              ]
+                            },
+                            {
+                              "compassDirection": "northwest",
+                              "details": [
+                                {
+                                  "compassDegrees": 332,
+                                  "endPathIndices": [
+                                    28
+                                  ],
+                                  "maneuverType": "TurnRight",
+                                  "mode": "Driving",
+                                  "roadType": "Street",
+                                  "startPathIndices": [
+                                    27
+                                  ]
+                                }
+                              ],
+                              "exit": "",
+                              "iconType": "Auto",
+                              "instruction": {
+                                "formattedText": null,
+                                "maneuverType": "TurnRight",
+                                "text": "Turn right"
+                              },
+                              "isRealTimeTransit": false,
+                              "maneuverPoint": {
+                                "type": "Point",
+                                "coordinates": [
+                                  0.202328,
+                                  35.096617
+                                ]
+                              },
+                              "realTimeTransitDelay": 0,
+                              "sideOfStreet": "Unknown",
+                              "tollZone": "",
+                              "transitTerminus": "",
+                              "travelDistance": 0.04,
+                              "travelDuration": 49,
+                              "travelMode": "Driving"
+                            },
+                            {
+                              "compassDirection": "northwest",
+                              "details": [
+                                {
+                                  "compassDegrees": 332,
+                                  "endPathIndices": [
+                                    28
+                                  ],
+                                  "maneuverType": "ArriveFinish",
+                                  "mode": "Driving",
+                                  "roadType": "Street",
+                                  "startPathIndices": [
+                                    28
+                                  ]
+                                }
+                              ],
+                              "exit": "",
+                              "hints": [
+                                {
+                                  "hintType": "PreviousIntersection",
+                                  "text": "The last intersection before your destination is B12 / Eldoret Kapsabet Road"
+                                }
+                              ],
+                              "iconType": "Auto",
+                              "instruction": {
+                                "formattedText": null,
+                                "maneuverType": "ArriveFinish",
+                                "text": "Arrive at your destination on the right"
+                              },
+                              "isRealTimeTransit": false,
+                              "maneuverPoint": {
+                                "type": "Point",
+                                "coordinates": [
+                                  0.202647,
+                                  35.09645
+                                ]
+                              },
+                              "realTimeTransitDelay": 0,
+                              "sideOfStreet": "Right",
+                              "tollZone": "",
+                              "transitTerminus": "",
+                              "travelDistance": 0,
+                              "travelDuration": 0,
+                              "travelMode": "Driving"
+                            }
+                          ],
+                          "routeRegion": "WWMX",
+                          "routeSubLegs": [
+                            {
+                              "endWaypoint": {
+                                "type": "Point",
+                                "coordinates": [
+                                  0.202647,
+                                  35.09645
+                                ],
+                                "description": "road",
+                                "isVia": false,
+                                "locationIdentifier": "0|52|216|58|186|145|92|42|159|0|0|224|1|64|16|251|62|2|0.202647,35.09645",
+                                "routePathIndex": 28
+                              },
+                              "startWaypoint": {
+                                "type": "Point",
+                                "coordinates": [
+                                  0.197443,
+                                  35.131005
+                                ],
+                                "description": "road",
+                                "isVia": false,
+                                "locationIdentifier": "0|52|216|58|186|193|72|42|159|0|0|224|1|133|123|14|61|0|0.197443,35.131005",
+                                "routePathIndex": 0
+                              },
+                              "travelDistance": 4.138,
+                              "travelDuration": 499
+                            }
+                          ],
+                          "startTime": "/Date(1701902369044-0800)/",
+                          "travelDistance": 4.138,
+                          "travelDuration": 499,
+                          "travelMode": "Driving"
+                        }
+                      ],
+                      "trafficCongestion": "Mild",
+                      "trafficDataUsed": "None",
+                      "travelDistance": 4.138,
+                      "travelDuration": 499,
+                      "travelDurationTraffic": 559,
+                      "travelMode": "Driving"
+                    }
+                  ]
+                }
+              ],
+              "statusCode": 200,
+              "statusDescription": "OK",
+              "traceId": "7085104e63384097883b6147caa4bedc|DU00003055|0.0.0.0|DUB0009296, Leg0-DUB0009283"
+            }
+        </string>
+</resources>
